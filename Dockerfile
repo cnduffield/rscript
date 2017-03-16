@@ -6,6 +6,6 @@ ADD https://raw.githubusercontent.com/cnduffield/rscript/master/myRscript.R /app
 
 #RUN git clone git@bitbucket.org:User/repo.git
 #Rscript a.R
-CMD ["Rscript", "/app/myRscript.R"]
+#CMD ["Rscript", "/app/myRscript.R"]
 
 
