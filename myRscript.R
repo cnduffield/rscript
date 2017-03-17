@@ -1,5 +1,5 @@
 # take input from the user
-nterms = 7
+nterms = 10
 
 # first two terms
 n1 = 0
@@ -24,6 +24,7 @@ if(nterms <= 0) {
             n1 = n2
             n2 = nth
             count = count + 1
+            Sys.sleep(1)
         }
     }
 }
