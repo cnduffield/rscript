@@ -14,6 +14,7 @@ if(nterms <= 0) {
         print("Fibonacci sequence:")
         print(n1)
     } else {
+        print(format(Sys.time(), "%a %b %d %H:%M:%S %Y"))
         print("Fibonacci sequence:")
         print(n1)
         print(n2)
